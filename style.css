@@ -51,8 +51,10 @@
 .footer {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: lightblue;
     padding: 10px;
+    
 }
 
 .footer .logo {
@@ -61,14 +63,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
-    margin-left: 5px;
+    margin-right: 6px;
 }
 
-.footer .title {
+.footer .copyright {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 12px;
     color: black;
 }
 
