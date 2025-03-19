@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/logo.png" type="image/png">
-    <link rel="stylesheet" href="styleLogin.css">
-    <title>Website Sekolah Indonesia</title>
+    <link rel="icon" href="assets/logo.png" type="image/png"> <!--buat ngubah icon title web-->
+    <link rel="stylesheet" href="styleRegister.css">
+    <title>Register Page</title>
 </head>
 <body>
     <header>
@@ -14,11 +14,14 @@
             <h1 class="title">Sekolah Indonesia</h1>
         </div>
     </header>
+    <hr>
+    <br>
+    <br>
     
     <main>
         <div class="login-container">
-            <form action="#" class="login-form">
-                <h1 class="login-title">Sign-In</h1>
+            <form action = "http://127.0.0.1:5000/register" method="post" class="login-form">
+                <h1 class="login-title">Register</h1>
                 <div class="input-container">
                     <label>Username </label>
                     <input type="text" id="username" name="username" required>
@@ -26,7 +29,7 @@
                 <div class="input-container" style="position: relative;">
                     <label>Password </label>
                     <input type="password" id="password" name="password" required>
-                    <span class="icon-container" onclick="togglePasswordVisibility()">
+                    <span class="icon-container" onclick="togglePasswordVisibility()"> <!--span ini buat UI show password-->
                         <svg id="eye-open" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
                             <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
                             <circle cx="12" cy="12" r="3"/>
@@ -35,13 +38,16 @@
                             <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
                             <line x1="1" y1="1" x2="23" y2="23"/>
                         </svg>
-                    </span>
+                    </span> <!--span diatas buat UI show password-->
                 </div>
-                <button type="submit">Submit</button>
+                <button type="submit" class="submit">Submit</button>
             </form>
         </div>
     </main>
     
+    <br>
+    <br>
+    <hr>
     <footer>
         <div class="footer">
             <img src="assets/logo.png" alt="logo" class="logo">
@@ -53,7 +59,8 @@
         </div>
     </footer>
 
-    <script>
+    <!--script buat show password-->
+    <script> 
         function togglePasswordVisibility() {
             let passwordInput = document.getElementById("password");
             let eyeOpen = document.getElementById("eye-open");
