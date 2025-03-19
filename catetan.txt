@@ -1,5 +1,5 @@
 HTML - CSS:
 - Login Page (done)
-- Register account (buat insert data)
-- Update account (buat update data)
-- Delete account (buat delete data)
+- Register account (buat insert data) - (done)
+- Update account (buat update data) - (done)
+- Delete account (buat delete data) - (done)
