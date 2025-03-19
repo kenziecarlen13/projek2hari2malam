@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/logo.png" type="image/png"> <!--buat ngubah icon title web-->
-    <link rel="stylesheet" href="styleLogin.css">
-    <title>Login Page</title>
+    <link rel="stylesheet" href="styleDelete.css">
+    <title>Delete Page</title>
 </head>
 <body>
     <header>
@@ -20,8 +20,12 @@
     
     <main>
         <div class="login-container">
-            <form action = "http://127.0.0.1:5000/login" method="post" class="login-form">
-                <h1 class="login-title">Sign-In</h1>
+            <form action = "http://127.0.0.1:5000/delete" method="post" class="login-form">
+                <h1 class="login-title">Delete</h1>
+                <div class="input-container">
+                    <label>Nama Lengkap </label>
+                    <input type="text" id="nama" name="nama" required>
+                </div>
                 <div class="input-container">
                     <label>Username </label>
                     <input type="text" id="username" name="username" required>
@@ -40,10 +44,7 @@
                         </svg>
                     </span> <!--span diatas buat UI show password-->
                 </div>
-                <button type="button" class="register">Register</button>
-                <button type="button" class="update">Update</button>
-                <button type="button" class="delete">Delete</button>
-                <button type="submit" class="submit">Submit</button>
+                <button type="submit" class="submit">Delete</button>
             </form>
         </div>
     </main>
