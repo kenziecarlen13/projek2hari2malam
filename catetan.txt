@@ -3,3 +3,24 @@ HTML - CSS:
 - Register account (buat insert data) - (done)
 - Update account (buat update data) - (done)
 - Delete account (buat delete data) - (done)
+
+
+Flask - Python:
+- Nama File : web.py
+- Login Page (done) - (udah bisa login)
+- Register account (belom) - (belom bisa insert data)
+- Update account (belom) - (belom bisa update data)
+- Delete account (belom) - (belom bisa delete data)
+
+
+SQL - Database:
+- Nama File : user.db
+- Isi File :
+('dendyprtha', 'Indonesia', 'dendyprtha', 'qwe123')
+('Maria Don Banvard', 'Makasar', 'maria_don_banvard', 'mariaD0nB4nV4Rd')
+('John Guilemot', 'Aceh', 'john_guilemot', 'JohnGu!l3M0T')
+('Adid Kotelawala', 'Sragen', '4DidN3Cis', 'Ad!N3C1sD4nK3R3n')
+('Ivan', 'Surabaya', 'ivanrbr83', 'roku')
+('MatahariDida', 'Jogja', 'dida123', 'asd123')
+
+(ini sql sementara buat testing, belom kelar, mau dirubah)

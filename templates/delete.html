@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/logo.png" type="image/png"> <!--buat ngubah icon title web-->
-    <link rel="stylesheet" href="style/styleUpdate.css">
-    <title>Update Page</title>
+    <link rel="icon" href="../static/assets/logo.png" type="image/png"> <!--buat ngubah icon title web-->
+    <link rel="stylesheet" href="../static/styleDelete.css">
+    <title>Delete Page</title>
 </head>
 <body>
     <header>
         <div class="header">
-            <img src="assets/logo.png" alt="logo" class="logo">
+            <img src="../static/assets/logo.png" alt="logo" class="logo">
             <h1 class="title">Sekolah Indonesia</h1>
         </div>
     </header>
@@ -20,15 +20,11 @@
     
     <main>
         <div class="login-container">
-            <form action = "http://127.0.0.1:5000/update" method="post" class="login-form">
-                <h1 class="login-title">Update</h1>
+            <form action = "http://127.0.0.1:5000/delete" method="post" class="login-form">
+                <h1 class="login-title">Delete</h1>
                 <div class="input-container">
                     <label>Nama Lengkap </label>
                     <input type="text" id="nama" name="nama" required>
-                </div>
-                <div class="input-container">
-                    <label>Tanggal Lahir </label>
-                    <input type="date" id="tgl" name="tgl" required>
                 </div>
                 <div class="input-container">
                     <label>Username </label>
@@ -48,7 +44,7 @@
                         </svg>
                     </span> <!--span diatas buat UI show password-->
                 </div>
-                <button type="submit" class="submit">Update</button>
+                <button type="submit" class="submit">Delete</button>
             </form>
         </div>
     </main>
@@ -58,7 +54,7 @@
     <hr>
     <footer>
         <div class="footer">
-            <img src="assets/logo.png" alt="logo" class="logo">
+            <img src="../static/assets/logo.png" alt="logo" class="logo">
             <p class="copyright">
                 <span>
                     Copyright © <span id="currentYear">2025</span> Sekolah Indonesia. All Right Reserved.
